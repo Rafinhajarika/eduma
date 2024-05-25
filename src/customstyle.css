@@ -61,7 +61,7 @@
     object-fit: cover;
   }
   .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-	  bottom: 10%;
+	  bottom: 4.5%;
 	  left: 0%;
     width: 36%;
 }
