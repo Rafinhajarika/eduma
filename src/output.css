@@ -791,6 +791,10 @@ html {
   display: none;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-2 {
   height: 0.5rem;
 }
@@ -891,6 +895,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-10 {
@@ -1863,14 +1871,6 @@ html {
     gap: 30px;
   }
 
-  .md\:gap-\[\] {
-    gap: ;
-  }
-
-  .md\:gap-0 {
-    gap: 0px;
-  }
-
   .md\:p-0 {
     padding: 0px;
   }
@@ -2035,6 +2035,10 @@ html {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
   }
 
   .lg\:hidden {
@@ -2230,6 +2234,10 @@ html {
     margin-bottom: 6rem;
   }
 
+  .\32xl\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+
   .\32xl\:mb-24 {
     margin-bottom: 6rem;
   }
@@ -2284,6 +2292,10 @@ html {
     padding-bottom: 1.75rem;
   }
 
+  .\32xl\:pl-0 {
+    padding-left: 0px;
+  }
+
   .\32xl\:pl-\[125px\] {
     padding-left: 125px;
   }
@@ -2304,43 +2316,42 @@ html {
     padding-top: 2.5rem;
   }
 
-  .\32xl\:pl-0 {
-    padding-left: 0px;
-  }
-
-  .\32xl\:pt-0 {
-    padding-top: 0px;
-  }
-
   .\32xl\:pt-\[9px\] {
     padding-top: 9px;
-  }
-
-  .\32xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
 @media (min-width: 1800px) {
-  .\33xl\:-m-11 {
-    margin: -2.75rem;
-  }
-
-  .\33xl\:ml-\[\] {
-    margin-left: ;
-  }
-
   .\33xl\:-ml-10 {
     margin-left: -2.5rem;
   }
 
-  .\33xl\:ml-10 {
-    margin-left: 2.5rem;
+  .\33xl\:mt-\[\] {
+    margin-top: ;
   }
 
-  .\33xl\:-ml-11 {
-    margin-left: -2.75rem;
+  .\33xl\:mt-\[96\] {
+    margin-top: 96;
+  }
+
+  .\33xl\:mt-\[90\] {
+    margin-top: 90;
+  }
+
+  .\33xl\:mt-\[90px\] {
+    margin-top: 90px;
+  }
+
+  .\33xl\:w-\[38\.5\%\] {
+    width: 38.5%;
+  }
+
+  .\33xl\:w-\[61\.5\%\] {
+    width: 61.5%;
+  }
+
+  .\33xl\:w-\[67\%\] {
+    width: 67%;
   }
 
   .\33xl\:w-\[67\.5\%\] {
@@ -2359,16 +2370,12 @@ html {
     width: 68%;
   }
 
-  .\33xl\:w-\[69\.5\%\] {
-    width: 69.5%;
+  .\33xl\:w-\[70\%\] {
+    width: 70%;
   }
 
-  .\33xl\:w-\[73\%\] {
-    width: 73%;
-  }
-
-  .\33xl\:p-10 {
-    padding: 2.5rem;
+  .\33xl\:w-\[72\%\] {
+    width: 72%;
   }
 
   .\33xl\:px-0 {
@@ -2376,36 +2383,41 @@ html {
     padding-right: 0px;
   }
 
+  .\33xl\:px-\[25px\] {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
   .\33xl\:py-\[36px\] {
     padding-top: 36px;
     padding-bottom: 36px;
+  }
+
+  .\33xl\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .\33xl\:pb-\[30px\] {
+    padding-bottom: 30px;
   }
 
   .\33xl\:pl-\[305px\] {
     padding-left: 305px;
   }
 
+  .\33xl\:pl-\[50px\] {
+    padding-left: 50px;
+  }
+
   .\33xl\:pr-\[305px\] {
     padding-right: 305px;
   }
 
-  .\33xl\:pt-\[\] {
-    padding-top: ;
+  .\33xl\:pt-\[57px\] {
+    padding-top: 57px;
   }
 
-  .\33xl\:pt-\[36\] {
-    padding-top: 36;
-  }
-
-  .\33xl\:pt-\[36px\] {
-    padding-top: 36px;
-  }
-
-  .\33xl\:pl-\[\] {
-    padding-left: ;
-  }
-
-  .\33xl\:pl-\[50px\] {
-    padding-left: 50px;
+  .\33xl\:pb-\[\] {
+    padding-bottom: ;
   }
 }

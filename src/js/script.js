@@ -28,6 +28,10 @@ breakpoints: {
     slidesPerView: 5,
     spaceBetween: 10,
   },
+  1600: {
+    slidesPerView: 6,
+    spaceBetween: 10,
+  },
 },
 });
 var swiper = new Swiper(".mySwiper", {
@@ -109,6 +113,10 @@ tabTogglers.forEach(function(toggler) {
         1024: {
           slidesPerView: 5,
           spaceBetween: 10,
+        },
+        1600: {
+          slidesPerView: 6,
+          spaceBetween: 6,
         },
       },
     });
