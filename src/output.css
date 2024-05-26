@@ -2326,18 +2326,6 @@ html {
     margin-left: -2.5rem;
   }
 
-  .\33xl\:mt-\[\] {
-    margin-top: ;
-  }
-
-  .\33xl\:mt-\[96\] {
-    margin-top: 96;
-  }
-
-  .\33xl\:mt-\[90\] {
-    margin-top: 90;
-  }
-
   .\33xl\:mt-\[90px\] {
     margin-top: 90px;
   }
@@ -2388,6 +2376,11 @@ html {
     padding-right: 25px;
   }
 
+  .\33xl\:py-\[17px\] {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+
   .\33xl\:py-\[36px\] {
     padding-top: 36px;
     padding-bottom: 36px;
@@ -2415,9 +2408,5 @@ html {
 
   .\33xl\:pt-\[57px\] {
     padding-top: 57px;
-  }
-
-  .\33xl\:pb-\[\] {
-    padding-bottom: ;
   }
 }
