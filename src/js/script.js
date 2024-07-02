@@ -102,10 +102,7 @@ tabTogglers.forEach(function(toggler) {
           slidesPerView: 2,
           spaceBetween: 4,
         },
-        767: {
-          slidesPerView: 2,
-          spaceBetween: 4,
-        },
+        
         768: {
           slidesPerView: 5,
           spaceBetween: 10,
